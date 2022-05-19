@@ -1,0 +1,71 @@
+/* Generics */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+main section {
+    height: 100vh;
+    text-align: center;
+    padding-top: 100px;
+    position: relative;
+}
+
+/* Utilities */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.bgc-red {
+    background-color: #f00;
+}
+
+.bgc-green {
+    background-color: darkgreen;
+}
+
+.bgc-yell {
+    background-color: yellow;
+}
+
+h1 {
+    color: yellow;
+    font-size: 40px;
+}
+
+main ul {
+    list-style-type: none;
+    position: fixed;
+    top: 50px;
+    right: 20px;
+}
+
+main li {
+    display: inline-block;
+}
+
+.nav-men a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.bgc-yell h1 {
+    color: darkgreen;
+}
