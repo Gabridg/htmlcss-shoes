@@ -18,6 +18,10 @@ main section {
     position: relative;
 }
 
+html {
+    overflow-y: hidden;
+}
+
 /* Utilities */
 
 .container {
